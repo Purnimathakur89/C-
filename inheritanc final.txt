@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+class Bulb 
+{
+private:
+int w=0;
+public :
+void initalize ()
+{
+w=0;
+}
+void setWattage (int e)
+{
+if (e>=0&&e<=240)
+{
+w=e;
+}
+else 
+{
+w=0;
+}
+};
+int getWattage ()
+{
+return w;
+}
+};
+int main ()
+{
+Bulb g;
+cout<<"Wattage is "<<g.getWattage()<<endl;
+return 0;
+}
