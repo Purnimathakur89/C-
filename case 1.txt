@@ -1,0 +1,23 @@
+
+// case 1//
+
+using namespace std;
+class Bulb
+{
+int w;
+public : 
+void setWattage(int e)
+{
+w=e;
+}
+int getWattage()
+{
+return w;
+}
+};
+int main ()
+{
+Bulb g;
+Bulb t(60);
+return o;
+}
