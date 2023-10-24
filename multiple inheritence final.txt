@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+class aaa
+{
+public:
+void jack()
+{
+cout<<"Good"<<endl;
+}
+};
+class bbb:virtual public aaa
+{
+public:
+void tom()
+{
+cout<<"cool"<<endl;
+}
+};
+class ccc:virtual public aaa
+{
+public:3
+void joy ()
+{
+cout <<"Great"<<endl;
+}
+};
+class ddd:public bbb,public ccc
+{
+public:
+void dumb()
+{
+cout<<"Fantastic"<<endl;
+}
+};
+int main()
+{
+ddd d ;
+d.bbb:: jack();
+d.ccc::jack();
+return 0;
+}
+
+
